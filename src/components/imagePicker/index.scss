@@ -1,0 +1,50 @@
+@import '../style.scss';
+
+.i-image-picker {
+  position: fixed;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+
+  .box {
+    width: 100%;
+    max-height: 200px;
+    background-color: #ffffff;
+    display: block;
+    overflow-y: auto;
+    transition-property: transform;
+    transition-duration: 300ms;
+
+    span {
+      display: block;
+      padding: 14px;
+      font-size: 15px;
+      text-align: center;
+      color: #333333;
+    }
+
+    .t1 {
+      color: #666666;
+      border-bottom: 1px solid #f4f4f4;
+    }
+
+    .t2 {
+      border-bottom: 1px solid #f4f4f4;
+    }
+
+    .item:active {
+      background-color: #f4f4f4;
+    }
+
+    .line {
+      background-color: #f4f4f4;
+      height: 6px;
+      padding: 0;
+    }
+  }
+}

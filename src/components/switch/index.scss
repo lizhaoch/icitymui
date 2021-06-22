@@ -1,0 +1,55 @@
+@import '../style.scss';
+
+.i-switch {
+  display: flex;
+  align-items: center;
+  height: 49px;
+  padding: 0 15px;
+  font-size: 15px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+
+  .label {
+    color: #333333;
+    padding-right: 15px;
+  }
+
+  .field {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    $baseHeight: 30;
+
+    div {
+      display: inline-block;
+      box-sizing: border-box;
+      width: $baseHeight * 1.7 + px;
+      height: $baseHeight + px;
+      border-radius: $baseHeight + px;
+      padding: $baseHeight * 0.06 + px;
+
+      span {
+        display: inline-block;
+        box-sizing: border-box;
+        width: $baseHeight * 0.9 + px;
+        height: $baseHeight * 0.9 + px;
+        border-radius: $baseHeight * 0.9 + px;
+        background-color: #ffffff;
+      }
+    }
+
+    .active {
+      background-color: $primaryColor;
+      text-align: left;
+    }
+
+    .deactive {
+      background-color: $disableColor;
+      text-align: right;
+    }
+  }
+}
+
+.label-input-none-border {
+  border-bottom: 0px;
+}

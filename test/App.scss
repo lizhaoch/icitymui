@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+}

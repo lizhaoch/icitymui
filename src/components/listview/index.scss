@@ -1,0 +1,24 @@
+@import '../style.scss';
+
+.i-listview {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .content {
+    flex: 1;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    touch-action: auto;
+
+    .nodata {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #666666;
+    }
+  }
+}

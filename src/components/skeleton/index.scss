@@ -1,0 +1,12 @@
+.i-skeleton {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  div:not(:first-child) {
+    margin-top: 15px;
+  }
+  .per60 {
+    display: inline-block;
+    width: 80%;
+  }
+}

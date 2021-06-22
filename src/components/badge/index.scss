@@ -1,0 +1,22 @@
+@import "../style.scss";
+
+.i-badge {
+  display: inline-block;
+  position: relative;
+
+  .count {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    min-width: 20px;
+    max-width: 30px;
+    border-radius: 20px;
+    background-color: $primaryColor;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 0 2px;
+  }
+}

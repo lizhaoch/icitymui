@@ -1,0 +1,69 @@
+@import '../style.scss';
+
+.i-dialog {
+  position: fixed;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+
+  .box {
+    width: 75%;
+    display: inline-block;
+    overflow-y: auto;
+    transition-property: transform;
+    transition-duration: 300ms;
+    text-align: center;
+
+    .content {
+      max-height: 200px;
+      background-color: #ffffff;
+      border-radius: 6px;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 15px;
+      color: #333333;
+      text-align: center;
+      padding: 15px 0 10px 0;
+    }
+
+    .desc {
+      font-size: 14px;
+      line-height: 180%;
+      color: #666666;
+      padding: 0 15px 10px 15px;
+    }
+
+    .btn {
+      display: flex;
+      border-top: 1px solid #f4f4f4;
+
+      span {
+        flex: 1;
+        font-size: 15px;
+        padding: 15px;
+        display: inline-block;
+        text-align: center;
+      }
+
+      span:hover {
+        background-color: #f4f4f4;
+      }
+
+      .cancel {
+        color: #666666;
+      }
+
+      .confirm {
+        color: $primaryColor;
+        border-left: 1px solid #f4f4f4;
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import '../style.scss';
+
+.i-button {
+  width: 100%;
+  text-align: center;
+
+  & > div {
+    @extend .ripple;
+    display: inline-flex;
+    padding: 12px 0;
+    font-size: 15px;
+    border-radius: 4px;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .small {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .large {
+    width: 80%;
+  }
+
+  .normal {
+    border: 1px solid $primaryColor;
+    color: $primaryColor;
+  }
+
+  .primary {
+    background-color: $primaryColor;
+    color: #ffffff;
+  }
+
+  .dashed {
+    border: 1px dotted $primaryColor;
+    color: $primaryColor;
+  }
+
+  .disable {
+    border: 0;
+    background-color: $disableColor;
+    color: #ffffff;
+  }
+}

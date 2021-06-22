@@ -1,0 +1,20 @@
+{ 
+  "spin": "src/components/spin/index.js",
+  "button": "src/components/button/index.js",
+  "card": "src/components/card/index.js",
+  "badge": "src/components/badge/index.js",
+  "tabs": "src/components/tabs/index.js",
+  "prompt": "src/components/prompt/index.js",
+  "title": "src/components/title/index.js",
+  "skeleton": "src/components/skeleton/index.js",
+  "search": "src/components/search/index.js",
+  "input": "src/components/input/index.js",
+  "password": "src/components/password/index.js",
+  "switch": "src/components/switch/index.js",
+  "listview": "src/components/listview/index.js",
+  "alert": "src/plugin/alert.js",
+  "dialog": "src/plugin/dialog.js",
+  "toast": "src/plugin/toast.js",
+  "imagePicker": "src/plugin/imagePicker.js",
+  "picker": "src/plugin/picker.js"
+}

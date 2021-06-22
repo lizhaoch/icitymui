@@ -1,0 +1,28 @@
+@import "../style.scss";
+
+.i-title {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px 15px 0;
+  background-color: #ffffff;
+
+  .line {
+    display: inline-block;
+    width: 3px;
+    height: 16px;
+    background-color: $primaryColor;
+  }
+
+  .title {
+    flex: 1;
+    font-size: 15px;
+    color: #333333;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .right {
+    font-size: 14px;
+    color: #999999;
+  }
+}

@@ -1,0 +1,44 @@
+@import "../style.scss";
+
+.i-search {
+  display: flex;
+  height: 40px;
+  padding: 0 8px;
+  align-items: center;
+  background-color: #eeeeee;
+  .box {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    input {
+      border: 0;
+      outline: none;
+      color: #333333;
+      width: 100%;
+      font-size: 14px;
+      padding: 6px 10px;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    input::placeholder {
+      color: #999999;
+    }
+    span {
+      display: block;
+      color: #999999;
+      padding: 6px 10px;
+      font-size: 14px;
+    }
+    .align-center {
+      text-align: center;
+    }
+    i {
+      font-size: 13px;
+    }
+  }
+  .cancel {
+    color: #666666;
+    padding: 0 6px 0 16px;
+    font-size: 14px;
+  }
+}
